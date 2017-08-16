@@ -1,0 +1,11 @@
+{
+  "name": "DemoSite",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "dependencies": {
+    "admin-lte": "^2.3.11",
+    "express": "latest"
+  }
+}

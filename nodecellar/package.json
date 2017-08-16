@@ -1,0 +1,10 @@
+{
+  "name": "wine-cellar",
+  "description": "Wine Cellar Application",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "angular-material": "^1.1.4",
+    "express": "3.x"
+  }
+}
