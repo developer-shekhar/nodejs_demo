@@ -1,0 +1,96 @@
+Analytics
+	User based 
+
+	Content based
+
+
+Dashboard 
+	Publisher
+	Institute
+
+
+Book purchase data
+
+book_name, book_id, after_sample, is_free, user_id, user_name, purchase_date_time, platform, profession, age_group, country, state, zip_code
+
+on successful purchase 
+	insert these data to table 
+
+
+Book reading data 
+book_name, book_id,  user_id, user_name, session_id, reading_session_id, reading_session_duration, session_date_time, platform, user_profession, user_age_group, user_country, user_state, zip_code
+
+Mobile app will send app_session and reading_session and bookId details along with user_id
+ parse rest of the detail and insert into table
+
+
+[
+        {
+            "book_name"       :   "book2", 
+            "book_id"         :   2017, 
+            "after_sample"    :   1, 
+            "is_free"         :   0, 
+            "user_id"         :   5214,
+            "user_name"       :   "user001",
+            "purchase_date_time" : 1500948229 , 
+            "platform"        :   "iOS" , 
+            "profession"      :   "Programmer" , 
+            "age_group"       :  "25-32", 
+            "country"         :   "India" , 
+            "state"           :   "Delhi" , 
+            "zip_code"        :   "110034"
+
+        },
+        {
+            "book_name"      :   "book4", 
+            "book_id"        :   20123, 
+            "after_sample"   :   0, 
+            "is_free"        :   1, 
+            "user_id"        :   5234,
+            "user_name"      :   "user002",
+            "purchase_date_time" : 1500948229 , 
+            "platform"       :   "Android" , 
+            "profession"     :   "Engineer" , 
+            "age_group"      :  "33-40", 
+            "country"        :   "India" , 
+            "state"          :   "Delhi" , 
+            "zip_code"       :   "110034"
+
+        },
+        {
+            "book_name"      :   "book5", 
+            "book_id"        :   20124, 
+            "after_sample"   :   0, 
+            "is_free"        :   1, 
+            "user_id"        :   5234,
+            "user_name"      :   "user002",
+            "purchase_date_time" : 1500948229 , 
+            "platform"       :   "Android" , 
+            "profession"     :   "Engineer" , 
+            "age_group"      :  "33-40", 
+            "country"        :   "India" , 
+            "state"          :   "Delhi" , 
+            "zip_code"       :   "110034"
+
+        },
+        {
+           "book_name"      :   "book5", 
+           "book_id"        :   20124, 
+           "after_sample"   :   0, 
+           "is_free"        :   0, 
+           "user_id"        :   5236,
+           "user_name"      :   "user003",
+           "purchase_date_time" : 1510948229 , 
+           "platform"       :   "iOS" , 
+           "profession"     :   "Engineer" , 
+           "age_group"      :  "17-24", 
+           "country"        :   "India" , 
+           "state"          :   "UP" , 
+           "zip_code"       :   "620034"
+
+        }
+    ]
+
+
+
+

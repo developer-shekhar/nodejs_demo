@@ -54,6 +54,7 @@ exports.findAll = function(req, res) {
 exports.addWine = function(req, res) {
     var wine = req.body;
     console.log('Adding wine: ' + JSON.stringify(wine));
+    
     db.collection('wines', function(err, collection) {
         collection.insert(wine, {safe:true}, function(err, result) {
             if (err) {
@@ -72,6 +73,7 @@ exports.updateWine = function(req, res) {
     console.log('Updating wine: ' + id);
     console.log(JSON.stringify(wine));
     db.collection('wines', function(err, collection) {
+
         collection.update({'_id':new mongo.ObjectID(id)}, wine, {safe:true}, function(err, result) {
             if (err) {
                 console.log('Error updating wine: ' + err);
